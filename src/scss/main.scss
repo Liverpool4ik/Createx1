@@ -10,7 +10,8 @@
 // @import "./components/social";
 
 // подключения компонентов страницы (большие компоненты)
-// @import "./components/header";
+@import "./components/header";
+
 // @import "./components/hero";
 // @import "./components/about-section";
 // @import "./components/mission";
@@ -48,7 +49,7 @@
 // @import "./components/contacts-info";
 
 // подключения компонентов страницы (маленькие компоненты)
-// @import "./components/nav";
+@import "./components/nav";
 // @import "./components/header-contacts";
 // @import "./components/video-block";
 // @import "./components/breadcrumbs";
