@@ -1,12 +1,20 @@
 .header {
   // .header__container
-
+  padding: 23px 0;
   &__container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
-}
-.header--main {
+
+  &--main {
+    padding: 19px 0;
+    background-color: var(--color-light);
+  }
+
+  &__nav {
+    margin-left: -112px;
+  }
 }
 .container {
 }
