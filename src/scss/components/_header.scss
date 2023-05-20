@@ -13,12 +13,16 @@
   }
 
   &__nav {
+    // margin-left: -112px;  (As I think  ---  best when "nav" - is on Center Position of the top header)
     margin-left: -112px;
   }
 }
 .container {
 }
 .logo {
+  padding: 0 5px 3px 0;
+  border-right: 3px solid var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
 }
 .logo-img {
 }
