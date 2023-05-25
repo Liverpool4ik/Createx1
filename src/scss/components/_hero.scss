@@ -1,7 +1,27 @@
 .hero {
+  padding-top: 180px;
+  padding-bottom: 350px;
   background-color: var(--color-gray);
-  background-image: url("../../img/backGround-mainPage222.jpg");
+  background-image: url("../../img/backGround-mainPage.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  &__content {
+    max-width: 580px;
+  }
+  &__btns {
+    .btn {
+      &:not(:last-child) {
+        margin-right: 24px;
+      }
+    }
+  }
+}
+
+.minimalize-titleText {
+  font-size: 39px;
+  padding-bottom: 3px;
+  padding-right: 6px;
+  border-right: 3px solid var(--color-orange);
+  border-bottom: 3px solid var(--color-orange);
 }

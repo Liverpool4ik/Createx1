@@ -55,29 +55,64 @@ a {
 }
 
 .main-title {
+  margin: 0;
+  margin-bottom: 24px;
   font-weight: 700;
   font-size: 72px;
   line-height: 130%;
   letter-spacing: 1px;
-  color: var(--color-ebony);
+  text-transform: uppercase;
+  color: var(--color-dark);
 
   &--home {
     color: var(--color-white);
   }
+  span {
+    color: var(--color-orange);
+  }
 }
 
 .main-description {
+  margin: 0;
+  margin-bottom: 60px;
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
   color: var(--color-storm);
 
   &--home {
+    margin-bottom: 60px;
     color: var(--color-white);
   }
 }
 
-//************ ======   FINAL CODE FROM MAXGRAPH ======= **********////
+.btn {
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-width: 1px;
+  border-style: solid;
+  padding: 15px 40px;
+  border-radius: 4px;
+  border-color: transparent;
+
+  &--fill {
+    background: #ff5a30;
+
+    &-main {
+    }
+  }
+
+  &--stroke {
+    &-white {
+      border-color: var(--color-white);
+    }
+  }
+}
+//************ ======   FINAL CODE FROM MAXGRAPH's Github project **** ======= **********////
 
 // .js-focus-visible :focus:not(.focus-visible) {
 //   outline: none;
