@@ -54,7 +54,7 @@ a {
   max-width: 1260px;
 }
 
-.main-title {
+.title {
   margin: 0;
   margin-bottom: 24px;
   font-weight: 700;
@@ -72,7 +72,7 @@ a {
   }
 }
 
-.main-description {
+.description {
   margin: 0;
   margin-bottom: 60px;
   font-weight: 400;
@@ -93,17 +93,15 @@ a {
   line-height: 20px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  border-width: 1px;
   border-style: solid;
   padding: 15px 40px;
-  border-radius: 4px;
+  border-width: 1px;
   border-color: transparent;
+  border-radius: 4px;
 
   &--fill {
     background: #ff5a30;
-
-    &-main {
-    }
+    border-width: 2px;
   }
 
   &--stroke {
