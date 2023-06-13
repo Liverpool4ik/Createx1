@@ -1,0 +1,79 @@
+//******        was named as -- mission.scss ====== ****/////
+
+.values {
+  background-color: var(--color-white);
+  padding-bottom: 270px;
+
+  // .values__list
+
+  &__list {
+    --values-gap: 94px; // was named (--mission-gap)*****
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: calc(
+      var(--values-gap) * 2
+    ); // var(--values-gap)  === was named as === (var(--mission-gap)****
+  }
+  &__item-img {
+    margin-bottom: 10px;
+  }
+  // .values__item
+  &__item {
+    text-align: center;
+    background-position: top center;
+    background-size: 48px 48px;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &:not(:last-child) {
+      &::after {
+        content: "";
+        position: absolute;
+        right: calc(
+          -1 * var(--values-gap)
+        ); // var(--values-gap)  === was named as === (var(--mission-gap)****
+        top: 0;
+        height: 100%;
+        width: 1px;
+        background-image: url("../../img/divider.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+
+    // // .values__item--quality
+    // &--quality {
+    //   background-image: url("../../img/values/quality.svg");
+    // }
+
+    // // .values__item--safety
+    // &--safety {
+    //   background-image: url("../../img/values/safety.svg");
+    // }
+
+    // // .values__item--comfort
+    // &--comfort {
+    //   background-image: url("../../img/values/comfort.svg");
+    // }
+  }
+
+  // .values__subtitle
+  &__subtitle {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--color-dark);
+  }
+
+  // .values__description
+  &__description {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--color-storm);
+  }
+}
