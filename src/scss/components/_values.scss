@@ -2,7 +2,6 @@
 
 .values {
   background-color: var(--color-white);
-  padding-bottom: 270px;
 
   // .values__list
 
@@ -10,6 +9,7 @@
     --values-gap: 94px; // was named (--mission-gap)*****
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 120px;
     gap: calc(
       var(--values-gap) * 2
     ); // var(--values-gap)  === was named as === (var(--mission-gap)****
@@ -76,4 +76,26 @@
     line-height: 160%;
     color: var(--color-storm);
   }
+}
+
+.know-form {
+  padding: 48px 48px 48px 70px;
+  // .know-form__content
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+
+  // .know-form__title
+  &__title {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 32px;
+    color: red;
+  }
+}
+
+.btn {
+}
+.btn--fill {
 }
