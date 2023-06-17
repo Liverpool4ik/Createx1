@@ -1,7 +1,18 @@
 .services-section {
+  position: relative;
   padding-top: 212px;
-  background-image: url("../../img/services-section-BG.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  &::before {
+    content: "";
+    background-image: url("../../img/services-section/services-section-BG22.jpg");
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+  }
 }
