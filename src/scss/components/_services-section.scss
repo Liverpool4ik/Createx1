@@ -8,13 +8,22 @@
   &::before {
     content: "";
     background-image: url("../../img/services-section/services-section-BG22.jpg");
-    opacity: 0.3;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    height: 100vh;
+    opacity: 0.5;
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     z-index: -1;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 .services-list {
@@ -29,10 +38,10 @@
   padding: 90px 10px;
   border: 1px solid #0c5be4db;
   border-radius: 14px;
-  box-shadow: 0px 80px 80px -20px rgba(26, 50, 156, 0.991),
-    0px 30px 24px -10px rgb(1, 47, 255),
-    0px 12px 10px -16px rgba(7, 23, 92, 0.918),
-    0px 4px 4px -4px rgba(16, 52, 180, 0.671);
+  box-shadow: 0px 80px 80px -40px rgba(255, 90, 48, 0.991),
+    0px 30px 24px -10px rgba(255, 90, 48),
+    0px 12px 10px -6px rgba(255, 90, 48, 0.918),
+    0px 4px 4px 4px rgba(255, 90, 48, 0.671);
 
   // border: 1px solid #e5e8ed;
   //   // box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08),
@@ -41,6 +50,21 @@
   //   //   0px 4px 4px -4px rgba(30, 33, 44, 0.03);
   // }
   background: var(--color-white);
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: inherit;
+    background-image: url("../../img/services-section/interior.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+  }
 
   // .services-item__content
   &__content {
