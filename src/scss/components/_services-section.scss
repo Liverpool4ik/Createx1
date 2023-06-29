@@ -30,6 +30,22 @@
 
   // .services-section__list
   &__list {
+    margin-bottom: 80px;
+  }
+
+  // .services-section__learn
+  &__learn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  &__subtitle {
+    color: var(--color-dark);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 150%;
   }
 }
 .services-list {
