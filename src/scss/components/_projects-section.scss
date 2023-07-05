@@ -1,0 +1,59 @@
+.projects-section {
+  padding: 80px 0;
+  // .projects-section__prev
+  &__prev {
+  }
+
+  // .projects-section__next
+  &__next {
+  }
+
+  // .projects-section__top
+
+  &__top {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  // .projects-section__title
+
+  &__title {
+    margin: 0;
+    max-width: 705px;
+    font-size: 38px;
+  }
+
+  // .projects-section__title-highlighted
+
+  &__title-highlighted {
+    color: var(--color-orange);
+  }
+}
+.title {
+}
+.project-section {
+  // .project-section__slider-arrows
+  &__slider-arrows {
+  }
+}
+.slider-arrows {
+  // .slider-arrows__btn
+  &__btn {
+  }
+}
+
+.slider-btn {
+}
+
+.btn-reset {
+}
+.btn {
+}
+
+// <!-- portfolio-section === projects-section -->
+// <!-- slider-nav === slider-arrows -->
+// <!-- slider-nav__btn === slider-arrows__btn -->
+// <!-- portfolio-section__prev  === projects-section__prev -->
+// <!-- portfolio-section__next  === projects-section__next -->
