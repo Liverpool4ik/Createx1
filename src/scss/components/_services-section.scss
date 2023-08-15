@@ -5,18 +5,21 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-bottom: 6px solid var(--color-orange);
-  border-top: 6px solid var(--color-orange);
+  // overflow: hidden;
+  border-top: 6px solid rgba(160, 141, 151, 0.22);
+  border-top: 6px solid rgba(160, 141, 151, 0.22);
 
   // box-shadow: 0px 5px 15px -5px rgba(255, 90, 48, 0.8);
   border-bottom-left-radius: 120px;
   border-bottom-right-radius: 120px;
   border-top-left-radius: 120px;
   border-top-right-radius: 120px;
+  border-radius: 10em;
 
   &::before {
     content: "";
     background-image: url("../../img/services-section/services-section-BG22.jpg");
+    // background-color: red;
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
